@@ -1,0 +1,234 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background-color: antiquewhite;
+}
+
+/* =========== Font ======================================= */
+/* font {
+  font-family: 'Merriweather', serif;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Sacramento', cursive;
+} */
+
+/* ================= Hero Page ============================= */
+
+
+
+.hero-page {
+  background-image: url("../images/hero-img-org.jpg");
+  background-size: cover;
+
+  /* margin: 0 50px; */
+  height: 90vh;
+  position: relative;
+  /* align-items: center; */
+}
+
+#hero-icon {
+  position: absolute;
+  right: 40px;
+  top: 10px;
+}
+
+#hero-icon i {
+  font-size: 50px;
+  margin: 10px;
+}
+
+#hero-icon i:hover {
+  cursor: pointer;
+  color: antiquewhite;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 30px;
+  width: 50vw;
+  height: 75vh;
+}
+
+.hero-text h1 {
+  font-size: 6rem;
+  text-transform: uppercase;
+}
+
+.hero-text p {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  font-weight: 100;
+}
+
+.hero-text a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.btn {
+  background: white;
+  padding: 10px;
+  border-style: none;
+  border-radius: 5%;
+  width: 175px;
+}
+
+.btn:hover {
+  background: antiquewhite;
+  transition: ease-in-out 1s;
+  transform: scale(1.1);
+}
+
+/* =========== About Me ============================== */
+
+.about-me {
+  background-color: white;
+  margin-top: 50px;
+  line-height: 1.5;
+  padding: 10% 28%;
+}
+
+h2 {
+  font-size: 4rem;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  font-weight: bolder;
+}
+
+.about-me-text p {
+  font-size: 2rem;
+  font-weight: 100;
+}
+
+/*================= Portfolio Page =======================*/
+
+.portfolio {
+  margin: 50px 10%;
+}
+
+.portfolio-card {
+  margin-top: 50px;
+}
+
+.portfolio-tile {
+  width: 350px;
+  height: 600px;
+  display: inline-block;
+  margin: 10px;
+}
+
+.blank-tile {
+  background-color: #C5C7C1;
+  width: 350px;
+  height: 300px;
+}
+
+#tile-2-top {
+  background-color: white;
+}
+
+#tile-2-bottom {
+  background-color: #C5C7C1;
+  color: white;
+}
+
+
+.tile-text {
+  background-color: white;
+  width: 350px;
+  height: 300px;
+  padding: 20px;
+}
+
+h3 {
+  font-weight: bolder;
+  text-align: center;
+}
+
+.tile-text ul {
+  list-style-type: none;
+}
+
+.tile-text ul li {
+  margin: 20px;
+  font-weight: bold;
+}
+
+/* =================== Contact Page ========================== */
+
+/* Contact Form */
+
+.contact-page {
+  margin: 100px 10%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#contact-form {
+  background-color: #C5C7C1;
+  width: 30vw;
+  padding: 25px;
+  border-radius: 6px;
+}
+
+#contact-form h1 {
+  margin: 20px 0;
+  font-size: 2rem;
+}
+
+input {
+  width: 100%;
+  padding: 10px 16px;
+  margin: 8px 0;
+  border-radius: 5px;
+  border-style: none;
+}
+
+#btn {
+  background-color: white;
+  cursor: pointer;
+  padding: 14px 20px;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+#btn:hover {
+  background-color: antiquewhite;
+}
+
+textarea {
+  margin: 8px 0;
+  border-style: none;
+}
+
+/* Contact page icon */
+
+.contact-page-icon {
+  font-size: 60px;
+  cursor: pointer;
+}
+
+.contact-page-icon i {
+  cursor: pointer;
+  margin: 20px;
+}
+
+.contact-page-icon i:hover {
+  color: white;
+}
+
+.contact-page-icon i span {
+  margin-left: 25px;
+  font-size: 2rem;
+}
